@@ -3,6 +3,8 @@ import {BannerComponent} from "../../shared/banner/banner.component";
 import {ContainerComponent} from "../../shared/container/container.component";
 import {CardBuscaComponent} from "../../shared/card-busca/card-busca.component";
 import {FooterComponent} from "../../shared/footer/footer.component";
+import {CardDepoimentoComponent} from "../../shared/card-depoimento/card-depoimento.component";
+import {FormBuscaComponent} from "../../shared/form-busca/form-busca.component";
 
 @Component({
   selector: 'app-home',
@@ -11,7 +13,9 @@ import {FooterComponent} from "../../shared/footer/footer.component";
     BannerComponent,
     ContainerComponent,
     CardBuscaComponent,
-    FooterComponent
+    FooterComponent,
+    CardDepoimentoComponent,
+    FormBuscaComponent
   ],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
